@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4c6ef5, #1e90ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.form-header {
+    text-align: center;
+    background: #1e90ff;
+    color: #fff;
+    padding: 20px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1e90ff;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #4c6ef5;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.switch a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+.homepage {
+    text-align: center;
+    padding: 20px;
+}
+
+.homepage button {
+    margin-top: 20px;
+}
